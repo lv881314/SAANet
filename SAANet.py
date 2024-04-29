@@ -9,10 +9,7 @@ from model.batchnorm import SynchronizedBatchNorm2d
 
 
 
-# __all__ = ['SSFPN']
-
-
-class SSFPN(nn.Module):
+class SAANet(nn.Module):
     # def __init__(self, backbone,
     #              pretrained=True,
     #              ResNet34M= False,
